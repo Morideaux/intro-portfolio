@@ -20,6 +20,16 @@ This is a static site and as a result is not interactive. nor does it need to be
 ![site screenshot](assets/images/)
 ```
 
+---
+
 ### Credits
 
-This was a solo project by Meish Hamilton, but any resorces used as well as my pages will follow:
+This was a solo project by Meish Hamilton, but any resorces used as well as my pages are here.
+
+Tutorial Videos:
+
+/_general layput_/
+
+- https://www.youtube.com/watch?v=Slxdo0Dqxlk
+  /_Navigation_/
+- https://www.youtube.com/watch?v=Dtb3DdSvYRY
