@@ -15,13 +15,15 @@
     <a href="#" class="logo">Meish Hamilton</a>
 
     <nav class="navbar">
-      <a href="#" class="active">Portfolio</a>
-      <a href="#">Experiance</a>
-      <a href="#">Projects</a>
-      <a href="#">Education</a>
+      <a href="#projects" class="active">Portfolio</a>
+      <a href="#experiance">Experiance <i class="fa-solid fa-code"></i></a>
+      <a href="#projects">projects <i class="fa-solid fa-suitcase"></i></a>
+      <a href="#education">Education <i class="fa-solid fa-book"></i></a>
     </nav>
 
-    <a href="#" class="contact">Contact</a>
+    <a href="#" class="contact"
+      >Contact <i class="fa-solid fa-address-book"></i
+    ></a>
   </header>
   <body>
     <main>
@@ -39,27 +41,33 @@
             development project.
           </p>
 
-          <div class="links">
-            <a href="#experiance" class="link1">
-              <i class="fa-solid fa-code"></i>
-              <span>Experiance</span>
-            </a>
+          <div class="contact-form"></div>
+          <h2 class="contact-title">Send an email</h2>
+          <form id="contact-form" class="contact-form" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              required
+            /><br />
 
-            <a href="#projects" class="link2">
-              <i class="fa-solid fa-suitcase"></i>
-              <span>Projects</span>
-            </a>
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            /><br />
 
-            <a href="#education" class="link3">
-              <i class="fa-solid fa-book"></i>
-              <span>Education</span>
-            </a>
+            <textarea
+              name="message"
+              placeholder="Message"
+              rows="4"
+              required
+            ></textarea
+            ><br />
 
-            <a href="#Contact" class="link4">
-              <i class="fa-solid fa-address-book"></i>
-              <span>Contact</span>
-            </a>
-          </div>
+            <input type="submit" value="Send" class="submit-btn" />
+          </form>
         </div>
         <div class="headshot">
           <img src="images/headshot.webp" alt=" Meish Hamilton Headshot" />
