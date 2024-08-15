@@ -26,10 +26,10 @@ This is a static site and as a result is not interactive. nor does it need to be
 
 This was a solo project by Meish Hamilton, but any resorces used as well as my pages are here.
 
-Tutorial Videos:
+tutorial videos used:
 
-/_general layput_/
+<!--General Layout-->
 
-- https://www.youtube.com/watch?v=Slxdo0Dqxlk
-  /_Navigation_/
-- https://www.youtube.com/watch?v=Dtb3DdSvYRY
+- [Build a Responsive Personal Portfolio with HTML & CSS](https://www.youtube.com/watch?v=Slxdo0Dqxlk)
+<!--Navigation-->
+- [Create Simple Personal Portfolio Website with HTML & CSS](https://www.youtube.com/watch?v=Dtb3DdSvYRY)

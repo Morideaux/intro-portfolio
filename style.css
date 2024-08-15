@@ -12,7 +12,26 @@
   */
   --deepGreen: #0f261f;
   --popInteraction: #b85e00;
+  --linkColor: #4f8fe6;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 150px;
+  padding-bottom: 50px; /*50px for the height of the bottom navbar*/
+  flex: content;
+  flex-basis: content;
+  @media (max-width: 768px) {
+    body {
+      padding-top: 100px;
+    }
+  }
+}
+
+/* navbar */
 .header {
   position: fixed;
   top: 0;
@@ -27,14 +46,14 @@
   z-index: 100;
 }
 .logo {
-  font-size: smaller;
-  color: white;
+  font-size: 20px;
+  color: #f2f0ef;
   font-weight: 400;
   transition: 0.3s ease;
 }
 .navbar a {
   font-size: 12px;
-  color: white;
+  color: #f2f0ef;
   font-weight: 500;
   margin: 0 20px;
   border-bottom: 3px solid transparent;
@@ -47,7 +66,7 @@
 }
 .contact {
   padding: 12px 24px;
-  background-color: white;
+  background-color: #f2f0ef;
   color: var(--deepGreen);
   border: 2px solid transparent;
   border-radius: 8px;
@@ -59,5 +78,81 @@
 .contact:hover {
   background-color: var(--popInteraction);
   box-shadow: 0 0 16px var(--popInteraction);
-  color: white;
+  color: #f2f0ef;
+}
+
+/* responsive nav */
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0 20px;
+  }
+}
+
+/* main body*/
+
+.intro {
+  position: fixed;
+  width: 62%;
+  margin: 50px 0;
+  padding-left: 37px;
+  padding-right: 38px;
+  padding-top: 37px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: content;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.intro .text {
+  flex: 5;
+}
+
+.intro .headshot {
+  flex: 2;
+}
+
+.intro .text .links {
+  margin-top: 26px;
+}
+.intro .text .links {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid var(--linkColor);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.intro .text .links a:hover {
+  color: var(--popInteraction);
+  border: 2px solid var(--popInteraction);
+}
+
+/* contact form*/
+
+.contact-form {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+.contact-form form {
+  max-width: 50rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.contact-form form .input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+contact-form form .input-box input {
 }
