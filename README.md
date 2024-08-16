@@ -16,9 +16,7 @@ Ultimately, this project is to serve as the baseline for a more daring and inven
 
 This is a static site and as a result is not interactive. nor does it need to be installed. Navigate to the following web address to view.
 
-```md
-![site screenshot](assets/images/intro-portfolio\assets\Screenshot 2024-08-15 195526.webp)
-```
+![app screenshot](intro-portfolio\assets\Screenshot 2024-08-15 195526.png "app screenshot")
 
 ---
 
